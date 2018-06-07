@@ -1,0 +1,2 @@
+ros_bluetooth
+-DCATKIN_DEVEL_PREFIX=/home/rokid/Desktop/ros_workspace/devel -DCMAKE_INSTALL_PREFIX=/home/rokid/Desktop/ros_workspace/install -G Unix Makefiles

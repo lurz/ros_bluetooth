@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Stop on errors
+set -e
+
+PROCESS_NUM=$(ps aux | grep 'sudo -E PYTHONPATH' | awk '{print $2}')
+sudo kill $PROCESS_NUM

@@ -1,0 +1,8 @@
+prefix=/home/rokid/Desktop/ros_workspace/install
+
+Name: ros_bluetooth
+Description: Description of ros_bluetooth
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/rokid/Desktop/ros_workspace/install/lib 
+Requires: 

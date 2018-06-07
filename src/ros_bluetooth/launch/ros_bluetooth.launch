@@ -1,0 +1,4 @@
+<launch>
+  <node name="turtlebluesender" pkg="ros_bluetooth" type="blue_sender.py" output="screen" launch-prefix="sudo -E PYTHONPATH=$(env PYTHONPATH)" required="true"/>
+  <node name="turtlebluerecv" pkg="ros_bluetooth" type="blue_recer.py" output="screen" launch-prefix="sudo -E PYTHONPATH=$(env PYTHONPATH)" required="true"/>
+</launch>

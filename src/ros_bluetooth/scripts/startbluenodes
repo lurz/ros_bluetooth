@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Stop on errors
+set -e
+
+sudo systemctl daemon-reload
+sudo systemctl restart bluetooth
+sudo chmod 777 /var/run/sdp
+sdptool add --channel=22 SP
+sudo rfcomm watch /dev/rfcomm0 22
